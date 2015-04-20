@@ -1,0 +1,14 @@
+.background{
+	padding:85px 0;
+	background: url(../images/paper.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	-moz-background-size: cover;
+}
+@media(max-width:768px){
+	.background {
+		padding: 75px 0;
+		}
+}

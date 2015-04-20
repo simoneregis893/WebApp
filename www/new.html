@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+</script>
+</head>
+<body>
+
+<script>
+
+$.get("http://localhost:8080/professors", function(data){
+		
+	
+	$.each(data, function(index){
+		$("#demo").append(data[index].nome+" "+data[index].cognome+"<BR>");
+	});	
+	},		
+	"json");
+
+</script>
+
+<p id="demo"></p>
+
+</body>
+</html>
+

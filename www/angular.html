@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+</head>
+
+<body ng-app="MyApp">
+  <div ng-controller="PostsCtrl">
+    <ul ng-repeat="post in profs">
+      <li>{{post.nome +" "+post.cognome}}</li>      
+    </ul>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
